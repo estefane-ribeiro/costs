@@ -15,9 +15,11 @@
 .item a {
   color: #fff;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 .item a:hover {
   color: #ffbb33;
+  display: block;
+  transform: scale(1.2);
 }

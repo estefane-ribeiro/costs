@@ -14,6 +14,10 @@
   margin-bottom: 1.5em;
 }
 
+.social_list li {
+  transition: 0.5s;
+}
+
 .social_list li:hover {
   color: #ffbb33;
   transform: scale(1.5);
