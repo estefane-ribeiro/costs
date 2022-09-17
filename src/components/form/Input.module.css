@@ -1,0 +1,31 @@
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form_control label {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+}
+
+.form_control input {
+  padding: 0.7em;
+}
+
+.form_control::placeholder {
+  color: #7b7b7b;
+}
+
+.form_control input[type='submit'] {
+  background-color: #ffbb33;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.form_control input[type='submit']:hover {
+  background-color: #ffbb00;
+  transform: scale(1.04);
+}
